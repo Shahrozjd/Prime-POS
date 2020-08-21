@@ -12,7 +12,7 @@
 <img src="https://user-images.githubusercontent.com/50264214/90847315-a4017000-e383-11ea-81bb-67b159a42d64.png" alt="drawing" width="200" height="420"/><br>
 
 ##### Screen to add Sale with certified QR / Get employee sale history with that client
-<img src="https://user-images.githubusercontent.com/50264214/90847315-a4017000-e383-11ea-81bb-67b159a42d64.png" alt="drawing" width="200" height="420"/><br>
+<img src="https://user-images.githubusercontent.com/50264214/90847741-a1ebe100-e384-11ea-8e0c-a921927cc791.png" width="200" height="420"/><br>
 
 ##### Emplyoyee Sale History 
 <img src="https://user-images.githubusercontent.com/50264214/90847503-1d00c780-e384-11ea-99d4-28741b32e271.png" alt="drawing" width="200" height="420"/><br>
