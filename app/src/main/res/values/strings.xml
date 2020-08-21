@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Prime-Employee</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview_home">Homeview</string>
+    <string name="textview_profile">Profile view</string>
+    <string name="edit_login_id" />
+    <string name="edit_login_pass" />
+    <string name="text_fragment">Please enter your Email.</string>
+    <string name="buttonqr">SCAN</string>
+    <string name="buttonmanual">Manual</string>
+    <string name="buttonstrtscan">Start Scan</string>
+    <string name="title_activity_map_location">Map</string>
+</resources>

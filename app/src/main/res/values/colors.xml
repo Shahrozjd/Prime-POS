@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CF302D</color>
+    <color name="colorPrimaryDark">#AD2727</color>
+    <color name="colorAccent">#CF302D</color>
+
+    <color name="colorAmber_A400">#10171f</color>
+    <color name="colorAmber_900">#FFFFFF</color>
+</resources>

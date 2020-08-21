@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imgcircullayout"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btnscansale"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/scanqrlogo"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imgcircullayout"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+<ImageView
+    android:id="@+id/btnmanualsale"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+
+    android:src="@drawable/manuallogo"
+
+    />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

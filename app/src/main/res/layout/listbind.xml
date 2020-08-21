@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/circlelayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtlistclient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sale ID: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/txtlistsaleid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getsaleid"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Client Phn: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtlistClientphn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getclientphn"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date/Time: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/txtlistdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getDate"
+        android:textSize="18sp"
+        />
+</LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Unit price: "
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:id="@+id/txtlistunitprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="getunitprice"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/txtlistquantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getquantity"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Discount: "
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtlistdiscount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="getdiscount"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Price: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtlisttotalprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gettotalprice"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salesman: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtlistsalesman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getsalesman"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/txtlistitemname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="getItemname"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/txtlistaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getaddress"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City: "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/txtlistcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getcity"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PKR: "
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtlistnettotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="getNetTotal"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

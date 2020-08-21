@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+<ImageView
+    android:id="@+id/btnmysale"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/imgcircullayout"
+    android:src="@drawable/mysalelogo"
+
+
+    />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout28">
+
+<ImageView
+    android:id="@+id/btncustsale"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/imgcircullayout"
+    android:src="@drawable/customerhistorylogo"
+
+
+    />
+
+    </LinearLayout>
+</LinearLayout>

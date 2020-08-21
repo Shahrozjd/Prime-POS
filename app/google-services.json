@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "517011479371",
+    "firebase_url": "https://primeapp-62826.firebaseio.com",
+    "project_id": "primeapp-62826",
+    "storage_bucket": "primeapp-62826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517011479371:android:934d1be9ebb6d66b",
+        "android_client_info": {
+          "package_name": "com.example.salesman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517011479371-muoh84kkf5illvpbe4a0p7l2kmmrauha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salesman",
+            "certificate_hash": "59d3d4a1ed519001c604d79169bf7539da41046e"
+          }
+        },
+        {
+          "client_id": "517011479371-f6kilarb998h418q8vpjd0rnvju774a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIS0M2d7_curHpYzXh4-Du0xKTmsiAKAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517011479371-f6kilarb998h418q8vpjd0rnvju774a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

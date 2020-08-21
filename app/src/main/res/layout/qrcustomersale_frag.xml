@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragscanqr"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        >
+
+        <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+            android:id="@+id/qrdecoderview1"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_weight="1"
+            >
+
+
+        </com.dlazaro66.qrcodereaderview.QRCodeReaderView>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutqr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#050505"
+            android:paddingStart="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout27">
+
+
+            <TextView
+                android:id="@+id/Infotxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Scan QR to see customer sale"
+                android:gravity="center_vertical"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/qrimg"
+
+                ></ImageView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:padding="10dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/resulttxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="___________"
+            android:textColor="@color/colorPrimary"></TextView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
